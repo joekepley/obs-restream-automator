@@ -1,0 +1,27 @@
+{
+  "name": "obs-restream-automator",
+  "version": "1.0.0",
+  "description": "Build a new OBS Profile with a new restream event key",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "getstreamkeys": "./bin/index.js"
+  },
+  "author": "",
+  "type": "commonjs",
+  "license": "ISC",
+  "dependencies": {
+    "@node-cli-toolkit/oauth-cli": "^1.0.2",
+    "axios": "^0.26.1",
+    "configstore": "^3.1.5",
+    "date-and-time": "^2.3.0",
+    "enquirer": "^2.3.6",
+    "express": "^4.17.3",
+    "open": "^8.4.0",
+    "plop": "^3.0.5",
+    "replace-in-file": "^6.3.2",
+    "yargs": "^17.4.0"
+  }
+}
